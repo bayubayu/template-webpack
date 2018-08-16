@@ -1,0 +1,13 @@
+body {
+    font-family: 'Verdana';
+}
+
+h1 {
+    &.title {
+        font-size:36px;
+    }
+}
+
+::placeholder {
+    color: gray;
+}
